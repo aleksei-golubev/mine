@@ -1,0 +1,26 @@
+.cell {
+	display: inline-block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	padding: 2px;
+	margin: 1px 0 2px 2px;
+	border: 1px solid #e0e0e0;
+}
+.nl {
+	clear: both;
+}
+.cell-info {
+	width: 16px;
+	height: 16px;
+	display: none;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+	margin: 0px;
+	padding: 2px;
+	box-sizing: content-box;
+}
+.mine > .cell-info {
+	background-color: red;
+}
